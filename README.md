@@ -2,7 +2,7 @@
 
 Official source for the Affinity Hospitality UAE marketing site.
 
-This repository contains a static, performance-focused website for a B2B hospitality linen manufacturer and supplier serving the UAE, GCC, and Africa. The site is built around a single `index.html` entry point with local assets and Tailwind CSS for styling.
+This repository contains a static, performance-focused website for a B2B hospitality linen manufacturer and supplier serving Africa, Europe, and the GCC. The site is built around a single `index.html` entry point with local assets and Tailwind CSS for styling.
 
 ## Stack
 
