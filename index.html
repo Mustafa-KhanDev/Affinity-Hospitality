@@ -481,24 +481,51 @@
     <main id="main-content" class="flex-grow" tabindex="-1">
 
         <!-- ================= HOME TAB ================= -->
-        <section id="home" class="tab-content active h-[calc(100vh-100px)] relative" aria-label="Welcome to Affinity Hospitality">
+        <section id="home" class="tab-content active min-h-[calc(100vh-100px)] relative" aria-label="Welcome to Affinity Hospitality">
             <div class="absolute inset-0 z-0 home-bg">
                 <img src="assets/images/banner2.webp" alt="Luxury hotel room featuring premium bed linen by Affinity Hospitality in Dubai" class="w-full h-full object-cover brightness-50" loading="eager" decoding="sync" fetchpriority="high">
             </div>
             <div class="absolute inset-0 z-20 home-overlay pointer-events-none" aria-hidden="true" style="background:linear-gradient(180deg, rgba(0,0,0,0.55), rgba(0,0,0,0.15));"></div>
 
-            <div class="relative z-30 home-content flex flex-col items-center justify-center h-full text-center px-4">
-                <p class="text-sm text-white uppercase tracking-wide mb-2 opacity-90">Welcome To</p>
+            <div class="relative z-30 home-content flex flex-col items-center justify-center min-h-[calc(100vh-100px)] text-center px-4 py-16 md:py-20">
+                <div class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-2 text-[11px] md:text-xs uppercase tracking-[0.24em] text-white/90 backdrop-blur-sm">
+                    <span class="h-2 w-2 rounded-full bg-gold-light"></span>
+                    Dubai, UAE Based Manufacturing Partner
+                </div>
                 <h1 class="text-white text-4xl md:text-6xl lg:text-7xl font-serif tracking-wide mb-4 drop-shadow-lg">
                     AFFINITY HOSPITALITY UAE
                 </h1>
                 <div class="separator text-white/80">
                     <span class="text-lg md:text-xl uppercase tracking-widest font-light">Premium Linen &amp; Custom Bags Manufacturer</span>
                 </div>
-                <p class="text-gray-200 mt-4 text-sm md:text-base tracking-wider">We craft premium linen and custom bags for hospitality, retail, and events.</p>
+                <p class="max-w-3xl text-gray-200 mt-4 text-sm md:text-lg leading-relaxed tracking-[0.08em]">
+                    We manufacture premium bed and bath linen, hospitality-use bags, and custom promotional bags
+                    for hotels, resorts, retail programs, supermarkets, exhibitions, and events.
+                </p>
                 <p class="text-gray-200 mt-2 text-sm md:text-base tracking-wider uppercase">Proudly based in Dubai, UAE</p>
-                
-                <a href="#about" class="mt-10 inline-block px-8 py-3 border border-white text-white hover:bg-white hover:text-black transition duration-300 uppercase tracking-widest text-sm text-center" role="button" aria-label="Explore our premium linen and custom bag collections">Explore Collections</a>
+
+                <div class="mt-10 flex flex-col sm:flex-row gap-3 sm:gap-4">
+                    <a href="#bath" class="inline-flex justify-center items-center px-8 py-3 bg-gold text-white hover:opacity-90 transition duration-300 uppercase tracking-widest text-sm text-center rounded-md" role="button" aria-label="View our bed and bath linen collections">View Linen Collections</a>
+                    <a href="#bags" class="inline-flex justify-center items-center px-8 py-3 border border-white text-white hover:bg-white hover:text-black transition duration-300 uppercase tracking-widest text-sm text-center rounded-md" role="button" aria-label="Explore our custom bag collection">Explore Custom Bags</a>
+                </div>
+
+                <div class="mt-10 grid w-full max-w-5xl gap-4 md:grid-cols-3">
+                    <div class="rounded-2xl border border-white/15 bg-white/10 p-5 text-left backdrop-blur-sm shadow-lg shadow-black/10">
+                        <p class="text-[11px] uppercase tracking-[0.22em] text-white/70 mb-2">Experience</p>
+                        <p class="text-2xl md:text-3xl font-serif text-white">20+ Years</p>
+                        <p class="mt-2 text-sm text-gray-200 leading-relaxed">Supplying premium hospitality programs across the region.</p>
+                    </div>
+                    <div class="rounded-2xl border border-white/15 bg-white/10 p-5 text-left backdrop-blur-sm shadow-lg shadow-black/10">
+                        <p class="text-[11px] uppercase tracking-[0.22em] text-white/70 mb-2">Capability</p>
+                        <p class="text-2xl md:text-3xl font-serif text-white">Linen + Bags</p>
+                        <p class="mt-2 text-sm text-gray-200 leading-relaxed">One supplier for guest rooms, bath programs, and branded carry solutions.</p>
+                    </div>
+                    <div class="rounded-2xl border border-white/15 bg-white/10 p-5 text-left backdrop-blur-sm shadow-lg shadow-black/10">
+                        <p class="text-[11px] uppercase tracking-[0.22em] text-white/70 mb-2">Coverage</p>
+                        <p class="text-2xl md:text-3xl font-serif text-white">UAE, GCC, Africa</p>
+                        <p class="mt-2 text-sm text-gray-200 leading-relaxed">Reliable supply support for hospitality groups, retail campaigns, and events.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -536,6 +563,48 @@
                             </picture>
                             <div class="absolute inset-0 pointer-events-none rounded-lg" aria-hidden="true" style="background: linear-gradient(180deg, rgba(0,0,0,0.18), rgba(0,0,0,0.02)); mix-blend-mode: multiply;"></div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="mt-16">
+                    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-8">
+                        <div>
+                            <p class="text-xs uppercase tracking-[0.22em] text-gray-500 font-semibold mb-3">Explore Our Capabilities</p>
+                            <h3 class="text-3xl md:text-4xl text-gray-900 font-serif">Built for hospitality programs and branded supply needs.</h3>
+                        </div>
+                        <p class="max-w-2xl text-gray-600 leading-relaxed">
+                            Explore the core collections and production strengths that make Affinity a practical long-term manufacturing partner.
+                        </p>
+                    </div>
+
+                    <div class="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+                        <a href="#bath" class="group rounded-2xl border border-gold/10 bg-white p-6 shadow-lg shadow-stone-200/40 transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:shadow-xl">
+                            <p class="text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">Bath Linen</p>
+                            <h4 class="text-2xl font-serif text-gray-900 mb-3">Towels, robes, mats, and guest essentials.</h4>
+                            <p class="text-gray-600 leading-relaxed mb-5">From economy to premium hospitality quality with customizable GSM, sizing, and finishing.</p>
+                            <span class="text-sm font-semibold uppercase tracking-[0.18em] text-gold group-hover:tracking-[0.22em] transition-all">View Collection</span>
+                        </a>
+
+                        <a href="#bed" class="group rounded-2xl border border-gold/10 bg-white p-6 shadow-lg shadow-stone-200/40 transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:shadow-xl">
+                            <p class="text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">Bed Linen</p>
+                            <h4 class="text-2xl font-serif text-gray-900 mb-3">Sheets, duvet programs, pillows, and protectors.</h4>
+                            <p class="text-gray-600 leading-relaxed mb-5">Hotel-ready bed linen manufactured to spec for comfort, durability, and brand consistency.</p>
+                            <span class="text-sm font-semibold uppercase tracking-[0.18em] text-gold group-hover:tracking-[0.22em] transition-all">View Collection</span>
+                        </a>
+
+                        <a href="#bags" class="group rounded-2xl border border-gold/10 bg-white p-6 shadow-lg shadow-stone-200/40 transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:shadow-xl">
+                            <p class="text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">Custom Bags</p>
+                            <h4 class="text-2xl font-serif text-gray-900 mb-3">Hospitality, retail, event, and promotional formats.</h4>
+                            <p class="text-gray-600 leading-relaxed mb-5">Non-woven, cotton, polyester, and backpack options backed by brochure-ready product visuals.</p>
+                            <span class="text-sm font-semibold uppercase tracking-[0.18em] text-gold group-hover:tracking-[0.22em] transition-all">Explore Bags</span>
+                        </a>
+
+                        <a href="#production" class="group rounded-2xl border border-gold/10 bg-white p-6 shadow-lg shadow-stone-200/40 transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:shadow-xl">
+                            <p class="text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">Facilities</p>
+                            <h4 class="text-2xl font-serif text-gray-900 mb-3">Integrated production across Pakistan and UAE.</h4>
+                            <p class="text-gray-600 leading-relaxed mb-5">A combined manufacturing, stitching, and finishing setup for quality control and lead-time confidence.</p>
+                            <span class="text-sm font-semibold uppercase tracking-[0.18em] text-gold group-hover:tracking-[0.22em] transition-all">See Facilities</span>
+                        </a>
                     </div>
                 </div>
             </div>
