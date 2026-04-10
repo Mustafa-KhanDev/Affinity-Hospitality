@@ -337,6 +337,11 @@
             justify-content: center;
             overflow: hidden;
         }
+        .bags-visual picture {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
         .bags-visual img {
             width: 100%;
             height: 100%;
@@ -878,7 +883,10 @@
 
                     <figure class="bags-card rounded-3xl">
                         <div class="bags-visual p-5 md:p-7 h-[28rem] md:h-[38rem]">
-                            <img src="assets/images/bags-overview.jpg" alt="Affinity Hospitality bags overview brochure showing cotton tote bags, non-woven bags, and polyester carry bags" loading="lazy" decoding="async" width="591" height="1181">
+                            <picture>
+                                <source srcset="assets/images/bags-overview.webp" type="image/webp">
+                                <img src="assets/images/bags-overview.jpg" alt="Affinity Hospitality bags overview brochure showing cotton tote bags, non-woven bags, and polyester carry bags" loading="lazy" decoding="async" width="591" height="977">
+                            </picture>
                         </div>
                         <figcaption class="p-6 md:p-7 text-gray-700">
                             <p class="text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">Brochure Overview</p>
@@ -906,10 +914,16 @@
                             </div>
                             <div class="bags-dual-grid p-4 md:p-5 bg-[#fbf8f2]">
                                 <figure class="bags-visual rounded-2xl overflow-hidden h-[22rem] md:h-[30rem]">
-                                    <img src="assets/images/bags-hospitality-1.jpg" alt="Non-woven hospitality bag brochure page featuring laundry bag, shoe bag, and pillow bag" loading="lazy" decoding="async" width="591" height="1181">
+                                    <picture>
+                                        <source srcset="assets/images/bags-hospitality-1.webp" type="image/webp">
+                                        <img src="assets/images/bags-hospitality-1.jpg" alt="Non-woven hospitality bag brochure page featuring laundry bag, shoe bag, and pillow bag" loading="lazy" decoding="async" width="504" height="881">
+                                    </picture>
                                 </figure>
                                 <figure class="bags-visual rounded-2xl overflow-hidden h-[22rem] md:h-[30rem]">
-                                    <img src="assets/images/bags-hospitality-2.jpg" alt="Non-woven hospitality bag brochure page featuring suit cover and abaya cover" loading="lazy" decoding="async" width="591" height="1181">
+                                    <picture>
+                                        <source srcset="assets/images/bags-hospitality-2.webp" type="image/webp">
+                                        <img src="assets/images/bags-hospitality-2.jpg" alt="Non-woven hospitality bag brochure page featuring suit cover and abaya cover" loading="lazy" decoding="async" width="591" height="865">
+                                    </picture>
                                 </figure>
                             </div>
                         </div>
@@ -917,7 +931,10 @@
 
                     <article class="bags-card rounded-3xl">
                         <div class="bags-visual p-5 md:p-6 h-[22rem] md:h-[30rem]">
-                            <img src="assets/images/bags-promotional.jpg" alt="Non-woven promotional bag brochure page featuring carry bags with handles and D and W cut bags" loading="lazy" decoding="async" width="591" height="1181">
+                            <picture>
+                                <source srcset="assets/images/bags-promotional.webp" type="image/webp">
+                                <img src="assets/images/bags-promotional.jpg" alt="Non-woven promotional bag brochure page featuring carry bags with handles and D and W cut bags" loading="lazy" decoding="async" width="529" height="861">
+                            </picture>
                         </div>
                         <div class="p-7 md:p-8">
                             <p class="text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">Non-Woven Promotional Collection</p>
@@ -939,7 +956,10 @@
 
                     <article class="bags-card rounded-3xl">
                         <div class="bags-visual p-5 md:p-6 h-[22rem] md:h-[30rem]">
-                            <img src="assets/images/bags-cotton-totes.jpg" alt="Cotton tote bag brochure page showing long handle and short handle tote options" loading="lazy" decoding="async" width="591" height="1181">
+                            <picture>
+                                <source srcset="assets/images/bags-cotton-totes.webp" type="image/webp">
+                                <img src="assets/images/bags-cotton-totes.jpg" alt="Cotton tote bag brochure page showing long handle and short handle tote options" loading="lazy" decoding="async" width="591" height="887">
+                            </picture>
                         </div>
                         <div class="p-7 md:p-8">
                             <p class="text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">100% Cotton Tote Bags</p>
@@ -958,7 +978,10 @@
 
                     <article class="bags-card rounded-3xl">
                         <div class="bags-visual p-5 md:p-6 h-[22rem] md:h-[30rem]">
-                            <img src="assets/images/bags-polyester.jpg" alt="Polyester carry bag brochure page showing custom branded carry bag options" loading="lazy" decoding="async" width="591" height="1181">
+                            <picture>
+                                <source srcset="assets/images/bags-polyester.webp" type="image/webp">
+                                <img src="assets/images/bags-polyester.jpg" alt="Polyester carry bag brochure page showing custom branded carry bag options" loading="lazy" decoding="async" width="428" height="945">
+                            </picture>
                         </div>
                         <div class="p-7 md:p-8">
                             <p class="text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">Polyester Carry Bags</p>
@@ -976,7 +999,10 @@
 
                     <article class="bags-card rounded-3xl">
                         <div class="bags-visual p-5 md:p-6 h-[22rem] md:h-[30rem]">
-                            <img src="assets/images/bags-backpack.jpg" alt="Backpack bag brochure page showing full custom branding" loading="lazy" decoding="async" width="591" height="1181">
+                            <picture>
+                                <source srcset="assets/images/bags-backpack.webp" type="image/webp">
+                                <img src="assets/images/bags-backpack.jpg" alt="Backpack bag brochure page showing full custom branding" loading="lazy" decoding="async" width="525" height="896">
+                            </picture>
                         </div>
                         <div class="p-7 md:p-8">
                             <p class="text-xs uppercase tracking-[0.2em] text-gray-500 mb-3">Backpack Bags</p>
@@ -1073,6 +1099,14 @@
                             bag material, branding method, finishing, and lead time for your operation.
                         </p>
 
+                        <div class="mt-6 flex flex-wrap gap-2">
+                            <span class="inline-flex items-center rounded-full border border-gold/20 bg-white px-3 py-2 text-[11px] uppercase tracking-[0.18em] text-gray-600">Quantity</span>
+                            <span class="inline-flex items-center rounded-full border border-gold/20 bg-white px-3 py-2 text-[11px] uppercase tracking-[0.18em] text-gray-600">Sizes</span>
+                            <span class="inline-flex items-center rounded-full border border-gold/20 bg-white px-3 py-2 text-[11px] uppercase tracking-[0.18em] text-gray-600">Branding</span>
+                            <span class="inline-flex items-center rounded-full border border-gold/20 bg-white px-3 py-2 text-[11px] uppercase tracking-[0.18em] text-gray-600">Material</span>
+                            <span class="inline-flex items-center rounded-full border border-gold/20 bg-white px-3 py-2 text-[11px] uppercase tracking-[0.18em] text-gray-600">Delivery Target</span>
+                        </div>
+
                         <ul class="mt-8 space-y-3 text-gray-700">
                             <li class="flex items-start gap-3">
                                 <span class="mt-2 h-2 w-2 rounded-full bg-gold shrink-0"></span>
@@ -1096,6 +1130,7 @@
                                 Email Sales
                             </a>
                         </div>
+                        <p class="mt-4 text-xs uppercase tracking-[0.16em] text-gray-500">Best results: share quantity, branding needs, and delivery deadline in the first message.</p>
                     </div>
 
                     <address class="bg-white p-8 md:p-10 shadow-2xl rounded-xl border border-gray-100 not-italic">
