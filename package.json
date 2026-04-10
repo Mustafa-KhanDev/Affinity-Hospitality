@@ -1,0 +1,12 @@
+{
+  "name": "affinity-hospitality-site",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build:css": "pnpm dlx tailwindcss@3.4.17 -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.min.css --minify",
+    "watch:css": "pnpm dlx tailwindcss@3.4.17 -i ./assets/css/tailwind.input.css -o ./assets/css/tailwind.min.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
