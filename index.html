@@ -173,6 +173,7 @@
         :root {
             --primary-gold: #C19A6B; /* Original gold for backgrounds/borders */
             --primary-gold-text: #966b35; /* Darker gold for accessible text on light backgrounds (4.5:1 Contrast) */
+            --primary-gold-dark: #8B7355; /* Darker gold for buttons with white text (7:1 Contrast) */
             --primary-dark: #1a1a1a;
             --bg-cream: #f9f9f7;
         }
@@ -193,6 +194,7 @@
         .text-gold { color: var(--primary-gold-text); }
         .text-gold-light { color: var(--primary-gold); } /* For text on dark backgrounds */
         .bg-gold { background-color: var(--primary-gold); }
+        .bg-gold-dark { background-color: var(--primary-gold-dark); }
         .border-gold { border-color: var(--primary-gold); }
 
         /* Navigation Styling */
@@ -475,6 +477,7 @@
                     <a href="#bed" id="nav-bed" class="nav-link" title="Hotel Bed Linen Collection">Bed Linen</a>
                     <a href="#bags" id="nav-bags" class="nav-link" title="Custom Hospitality and Promotional Bags">Bags</a>
                     <a href="#production" id="nav-production" class="nav-link" title="Our Manufacturing Facilities">Facilities</a>
+                    <a href="#resources" id="nav-resources" class="nav-link" title="Brochures and Resources">Resources</a>
                     <a href="#contact" id="nav-contact" class="nav-link" title="Contact Affinity Hospitality">Contact</a>
                 </div>
             </div>
@@ -509,7 +512,7 @@
                 <p class="text-gray-200 mt-2 text-sm md:text-base tracking-wider uppercase">Proudly based in Dubai, UAE</p>
 
                 <div class="mt-14 flex flex-col sm:flex-row gap-3 sm:gap-4">
-                    <a href="#bath" class="inline-flex justify-center items-center px-6 sm:px-8 py-3 sm:py-3 min-h-12 bg-gold text-white hover:opacity-90 transition duration-300 uppercase tracking-widest text-xs sm:text-sm text-center rounded-md" role="button" aria-label="View our bed and bath linen collections">View Linen Collections</a>
+                    <a href="#bath" class="inline-flex justify-center items-center px-6 sm:px-8 py-3 sm:py-3 min-h-12 bg-gold-dark text-white hover:opacity-90 transition duration-300 uppercase tracking-widest text-xs sm:text-sm text-center rounded-md" role="button" aria-label="View our bed and bath linen collections">View Linen Collections</a>
                     <a href="#bags" class="inline-flex justify-center items-center px-6 sm:px-8 py-3 sm:py-3 min-h-12 border border-white text-white hover:bg-white hover:text-black transition duration-300 uppercase tracking-widest text-xs sm:text-sm text-center rounded-md" role="button" aria-label="Explore our custom bag collection">Explore Custom Bags</a>
                 </div>
 
@@ -1026,7 +1029,7 @@
                             Share your specification, branding requirement, and target use case, and our team will help build the right bag and linen program for your operation.
                         </p>
                     </div>
-                    <a href="#contact" class="mt-6 lg:mt-0 inline-flex justify-center items-center px-6 py-3 bg-gold text-white rounded-md tracking-wide uppercase text-sm font-semibold hover:opacity-90 transition-all">
+                    <a href="#contact" class="mt-6 lg:mt-0 inline-flex justify-center items-center px-6 py-3 bg-gold-dark text-white rounded-md tracking-wide uppercase text-sm font-semibold hover:opacity-90 transition-all">
                         Request a Quote
                     </a>
                 </div>
@@ -1122,10 +1125,10 @@
                         </ul>
 
                         <div class="mt-10 flex flex-col sm:flex-row gap-3">
-                            <a href="tel:+971565753131" class="inline-flex justify-center items-center px-5 py-3 bg-gold text-white rounded-md tracking-wide uppercase text-sm font-semibold hover:opacity-90 transition-all">
+                            <a href="tel:+971565753131" class="inline-flex justify-center items-center px-5 py-3 bg-gold-dark text-white rounded-md tracking-wide uppercase text-sm font-semibold hover:opacity-90 transition-all">
                                 Call Sales
                             </a>
-                            <a href="mailto:affinity@affinityhospitality.ae" class="inline-flex justify-center items-center px-5 py-3 border border-gold text-gold rounded-md tracking-wide uppercase text-sm font-semibold hover:bg-gold hover:text-white transition-all">
+                            <a href="mailto:affinity@affinityhospitality.ae" class="inline-flex justify-center items-center px-5 py-3 border border-gold-dark text-gold rounded-md tracking-wide uppercase text-sm font-semibold hover:bg-gold-dark hover:text-white transition-all">
                                 Email Sales
                             </a>
                         </div>
@@ -1137,7 +1140,7 @@
 
                         <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
                             <div class="rounded-lg border border-gray-100 p-5 bg-gray-50">
-                                <div class="w-11 h-11 bg-gold rounded-full flex items-center justify-center text-white shadow-md mb-4">
+                                <div class="w-11 h-11 bg-gold-dark rounded-full flex items-center justify-center text-white shadow-md mb-4">
                                     <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                                         <path d="M22 16.92v2a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 3.2 2 2 0 0 1 4.11 1h2a2 2 0 0 1 2 1.72c.12.91.33 1.8.62 2.66a2 2 0 0 1-.45 2.11L7.1 8.7a16 16 0 0 0 8.2 8.2l1.21-1.18a2 2 0 0 1 2.11-.45c.86.29 1.75.5 2.66.62A2 2 0 0 1 22 16.92z"></path>
                                     </svg>
@@ -1147,7 +1150,7 @@
                             </div>
 
                             <div class="rounded-lg border border-gray-100 p-5 bg-gray-50">
-                                <div class="w-11 h-11 bg-gold rounded-full flex items-center justify-center text-white shadow-md mb-4">
+                                <div class="w-11 h-11 bg-gold-dark rounded-full flex items-center justify-center text-white shadow-md mb-4">
                                     <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                                         <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path>
                                         <path d="m22 7-10 7L2 7"></path>
@@ -1158,7 +1161,7 @@
                             </div>
 
                             <div class="rounded-lg border border-gray-100 p-5 bg-gray-50">
-                                <div class="w-11 h-11 bg-gold rounded-full flex items-center justify-center text-white shadow-md mb-4">
+                                <div class="w-11 h-11 bg-gold-dark rounded-full flex items-center justify-center text-white shadow-md mb-4">
                                     <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                                         <path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"></path>
                                         <path d="m22 7-10 7L2 7"></path>
@@ -1169,7 +1172,7 @@
                             </div>
 
                             <div class="rounded-lg border border-gray-100 p-5 bg-gray-50">
-                                <div class="w-11 h-11 bg-gold rounded-full flex items-center justify-center text-white shadow-md mb-4">
+                                <div class="w-11 h-11 bg-gold-dark rounded-full flex items-center justify-center text-white shadow-md mb-4">
                                     <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                                         <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1 1 18 0z"></path>
                                         <circle cx="12" cy="10" r="3"></circle>
@@ -1180,6 +1183,54 @@
                             </div>
                         </div>
                     </address>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="py-16 md:py-24 bg-gradient-to-b from-gray-50 to-white">
+            <div class="container mx-auto px-6">
+                <div class="mb-16 text-center max-w-3xl mx-auto">
+                    <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4 tracking-wide">Resources & Brochures</h2>
+                    <p class="text-gray-600 text-lg">Download our product catalogs and brochures to explore our complete range of premium linen and custom bags.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 max-w-2xl mx-auto gap-6">
+                    <a href="assets/pdfs/Affinity-Bags.pdf" download class="group relative overflow-hidden rounded-lg border border-gray-200 p-8 bg-white shadow-md hover:shadow-xl transition-all duration-300 hover:border-gold flex flex-col items-center justify-center text-center">
+                        <div class="w-16 h-16 bg-gradient-to-br from-gold/20 to-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:-translate-y-1 transition-transform">
+                            <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4v.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Bags & Accessories</h3>
+                        <p class="text-sm text-gray-600 mb-4">Comprehensive catalog of custom hospitality bags and promotional products</p>
+                        <span class="inline-flex items-center gap-2 text-gold font-semibold text-sm group-hover:gap-3 transition-all">
+                            Download PDF
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                            </svg>
+                        </span>
+                    </a>
+
+                    <a href="assets/pdfs/AH Profile.pdf" download class="group relative overflow-hidden rounded-lg border border-gray-200 p-8 bg-white shadow-md hover:shadow-xl transition-all duration-300 hover:border-gold flex flex-col items-center justify-center text-center">
+                        <div class="w-16 h-16 bg-gradient-to-br from-gold/20 to-gold/10 rounded-full flex items-center justify-center mb-4 group-hover:-translate-y-1 transition-transform">
+                            <svg class="w-8 h-8 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Company Profile</h3>
+                        <p class="text-sm text-gray-600 mb-4">About Affinity Hospitality, our mission, capabilities, and global reach</p>
+                        <span class="inline-flex items-center gap-2 text-gold font-semibold text-sm group-hover:gap-3 transition-all">
+                            Download PDF
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+
+                <div class="mt-12 text-center">
+                    <p class="text-gray-600 text-sm">Need a custom brochure or specifications? <a href="#contact" class="text-gold font-semibold hover:underline">Contact our sales team.</a></p>
                 </div>
             </div>
         </section>
@@ -1269,7 +1320,7 @@
                 if (audio.paused) {
                     audioIconOff.classList.remove('hidden');
                     audioIconOn.classList.add('hidden');
-                    audioBtn.classList.remove('bg-gold', 'text-white');
+                    audioBtn.classList.remove('bg-gold-dark', 'text-white');
                     audioBtn.classList.add('bg-white/95', 'text-gold');
                     audioBtn.setAttribute('aria-pressed', 'false');
                     audioBtn.setAttribute('aria-label', 'Play background music');
@@ -1277,7 +1328,7 @@
                     audioIconOff.classList.add('hidden');
                     audioIconOn.classList.remove('hidden');
                     audioBtn.classList.remove('bg-white/95', 'text-gold');
-                    audioBtn.classList.add('bg-gold', 'text-white');
+                    audioBtn.classList.add('bg-gold-dark', 'text-white');
                     audioBtn.setAttribute('aria-pressed', 'true');
                     audioBtn.setAttribute('aria-label', 'Pause background music');
                 }
